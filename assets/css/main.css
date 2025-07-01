@@ -3464,3 +3464,7 @@ a:hover {
   padding: 2px 4px;
   border-radius: 3px; /* optional: rounded corners */
 }
+
+#header, #header > header, header {
+  border: none !important;
+}
