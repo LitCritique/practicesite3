@@ -3459,3 +3459,12 @@ color: #F26B76 !important;
 #header > header {
   background: #F26B76 !important;
 }
+
+a:visited {
+  color: #F26B76 !important;
+}
+a:hover {
+  border: 1px solid #A0A603;
+  padding: 2px 4px;
+  border-radius: 3px; /* optional: rounded corners */
+}
