@@ -3541,3 +3541,10 @@ a:hover {
     margin-bottom: 0.5em;
   }
 }
+
+.section-divider {
+  border: none;
+  border-top: 2px solid #e0e0e0; /* light gray */
+  margin: 2.5rem 0;
+  width: 100%;
+}
