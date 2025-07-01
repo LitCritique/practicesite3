@@ -3390,12 +3390,12 @@ color: #F26B76 !important;
 }
 
 #four .about-me {
-  background-color: #ecefca;
+  background-color: #F2C094;
   padding: 20px;
   border-radius: 8px;
   margin: 20px 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  color: #2C4001;
   max-width: 100%;
 }
 
@@ -3418,7 +3418,7 @@ color: #F26B76 !important;
 }
 
 #four .about-me ul {
-  list-style-type: "🌟 ";
+  list-style-type: "☀️";
   padding-left: 20px;
 }
 
