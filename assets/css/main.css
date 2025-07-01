@@ -3321,6 +3321,6 @@ color: #4acaa8 !important;
 .image.main img {
   width: 100%;
   height: auto;
+  object-fit: contain; 
   display: block;
-  object-fit: cover; 
 }
