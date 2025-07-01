@@ -3438,7 +3438,9 @@ color: #F26B76 !important;
 
 
 .fancy-quote {
-  font-family: 'Indie Flower', cursive;
+   font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .teaching-box {
