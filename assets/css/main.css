@@ -2806,9 +2806,12 @@ input, select, textarea {
 						text-decoration: none;
 					}
 
-						#header > nav ul li a.active {
-							background: #fff;
-							color: #4acaa8 !important;
+						
+#header > nav ul li a.active {
+background: #fff;
+color: #4acaa8 !important;
+}
+
 						}
 
 					#header > nav ul li:first-child {
