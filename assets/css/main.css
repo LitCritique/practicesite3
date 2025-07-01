@@ -3324,3 +3324,18 @@ color: #4acaa8 !important;
   object-fit: contain; 
   display: block;
 }
+
+#four .two-column {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+#four .column {
+  flex: 1 1 350px;
+  min-width: 300px;
+}
+@media (max-width: 900px) {
+  #four .two-column {
+    flex-direction: column;
+  }
+}
