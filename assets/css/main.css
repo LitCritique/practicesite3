@@ -3488,6 +3488,8 @@ a:hover {
   display: block;
 }
 
-#five .features article.reverse {
-  gap: 0; 
+
+#five .features .image {
+  margin: 0;
+  padding: 0;
 }
