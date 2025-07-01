@@ -3477,51 +3477,67 @@ a:hover {
 #footer .icons .icon:hover {
   color: #A0A603 !important;
 }
-
-
-/* Section five: make images/iframes uniform and responsive */
-#five .features .image {
-  width: 100%;
-  max-width: 420px;    /* Adjust max width for desktop */
-  aspect-ratio: 16 / 10; /* Keeps a consistent shape; modern browsers only */
-  margin: 0 auto;
+#five .features {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 8px;
-  background: #fff;    /* Optional: for clean look */
+  flex-direction: column;
+  gap: 2.5rem;
 }
 
-#five .features .image iframe,
-#five .features .image img {
+#five .lesson {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  background: #fff8fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(242, 107, 118, 0.07);
+  padding: 1.5em 1.25em;
+}
+
+#five .lesson-media {
+  flex: 0 0 180px;
+  max-width: 180px;
   width: 100%;
-  height: 100%;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;   /* Ensures content fills box */
-  border: none;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  display: block;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-/* On tablets: slightly reduce max width */
-@media (max-width: 900px) {
-  #five .features .image {
-    max-width: 95vw;
-    aspect-ratio: 16 / 11;
-  }
+#five .lesson-media img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
-/* On small screens: full width, less margin */
-@media (max-width: 600px) {
-  #five .features .image {
-    max-width: 100vw;
-    aspect-ratio: 16 / 13;
-    border-radius: 0;
+#five .lesson-content {
+  flex: 1;
+  min-width: 0;
+}
+
+#five .lesson-content h4 {
+  margin-top: 0;
+  font-size: 1.18em;
+}
+
+#five .lesson-content h4 a {
+  color: #03a6a1;
+  text-decoration: none;
+  transition: color 0.2s;
+  word-break: break-word;
+}
+#five .lesson-content h4 a:hover {
+  color: #F26B76;
+  text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  #five .lesson {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1.3rem;
   }
-  #five .features article.reverse {
-    flex-direction: column !important;
-    gap: 1.25rem !important;
+  #five .lesson-media {
+    max-width: 100%;
+    margin-bottom: 0.5em;
   }
 }
