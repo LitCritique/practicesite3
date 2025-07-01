@@ -3318,10 +3318,17 @@ color: #4acaa8 !important;
 			}
 
 	}
+.image.main {
+  aspect-ratio: 4 / 1; /* Adjust to fit your image */
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 .image.main img {
   width: 100%;
-  height: auto;
-  object-fit: contain; 
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 
