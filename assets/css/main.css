@@ -3487,3 +3487,7 @@ a:hover {
   box-shadow: none;
   display: block;
 }
+
+#five .features article.reverse {
+  gap: 0; 
+}
