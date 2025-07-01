@@ -1,6 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:400,400italic,700,700italic');
 /*
 	Read Only by HTML5 UP
 	html5up.net | @ajlkn
@@ -3435,10 +3436,15 @@ color: #F26B76 !important;
   margin: 2em 0 1.5em 0;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lato:400,400italic,700,700italic');
 
 .fancy-quote {
   font-family: 'Indie Flower', cursive;
+  border: 2px solid #A0A603;         
+  background: #fff8fa;               
+  border-radius: 12px;               
+  box-shadow: 0 4px 16px rgba(242, 107, 118, 0.07); 
+  padding: 1.5em 1.25em;
+  margin: 2em 0 1.5em 0;
 }
 
 .teaching-box {
