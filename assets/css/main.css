@@ -3399,29 +3399,12 @@ color: #4acaa8 !important;
   max-width: 100%;
 }
 
-#four h4 {
-  font-family: "Akaya Telivigala", system-ui;
-  font-weight: 400;
-  font-style: normal;
-  text-align: center;
-  font-size: 1.2em;
-  color: #03a6a1;
-  margin-top: 24px;
-  margin-bottom: 20px;
-  letter-spacing: 1px;
-}
-
-#four .about-me h5 {
-  color: #03a6a1;
-  text-align: center;
-  margin-bottom: 12px;
-}
-
-#four .about-me ul {
-  list-style-type: "🌟 ";
-  padding-left: 20px;
-}
-
-#four .about-me li {
-  margin-bottom: 10px;
+#four .about-me {
+  background-color: #ecefca !important;
+  padding: 20px !important;
+  border-radius: 8px !important;
+  margin: 20px 0 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif !important;
+  color: #333 !important;
+  max-width: 100% !important;
 }
