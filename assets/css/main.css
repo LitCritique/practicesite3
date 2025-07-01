@@ -3455,3 +3455,7 @@ color: #F26B76 !important;
   padding: 1.5em 1.25em;
   margin: 2em 0 1.5em 0;
 }
+
+#header > header {
+  background: #F26B76 !important;
+}
